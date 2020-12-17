@@ -7,9 +7,20 @@ define('DATABASE_CONTROLLER', PROTECTED_DIR.'database.php');
 define('USER_MANAGER', PROTECTED_DIR.'userManager.php');
 
 define('DB_TYPE', 'mysql');
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'op2beadando');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_HOST', 'eu-cdbr-west-03.cleardb.net');
+define('DB_NAME', 'heroku_c5e29c40c9c7746');
+define('DB_USER', 'ba3a726c0cefaa');
+define('DB_PASS', '0efdbb74');
 define('DB_CHARSET', 'utf8');
 ?>
+
+<!-- 
+mysql://
+ba3a726c0cefaa
+:
+0efdbb74
+@
+eu-cdbr-west-03.cleardb.net
+/
+heroku_c5e29c40c9c7746?reconnect=true 
+-->
